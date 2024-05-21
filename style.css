@@ -1,0 +1,714 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+.navbar{
+ 
+     
+   background-color: rgb(0, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     justify-content:space-around; 
+     text-align: center;  
+    border: 2px solid; 
+     padding: 0px 10px; 
+     position: sticky;
+     top: 0%;
+     z-index: 999;
+   
+}
+.fa-facebook{
+    font-size:30px;
+    color: blue;
+   padding-top: 5px;
+   cursor: pointer;
+}
+.fa-magnifying-glass{
+    margin-left: 0px;
+    cursor: pointer;
+}
+ .box{
+ border: 2px solid;
+ background-color: white;
+ width: 500px;
+ border-radius: 70px;
+ padding-left: 10px;
+ margin-left: 20px;
+} 
+.fa-magnifying-glass{
+    cursor: pointer;
+}
+.input{
+    border: none;
+    width: 460px; 
+    border-radius: 70px;
+    padding: 10px 10px;
+    
+}
+.fa-house-chimney-window{
+    font-size:20px;
+    padding-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.fa-tv{
+    font-size:20px;
+    padding-top: 10px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.fa-store{
+    font-size:20px;
+    padding-top: 1px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.fa-circle-user{
+    font-size:20px;
+    padding-top: 10px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.fa-bell{
+    font-size:20px;
+    margin-left: 70px;
+    border: 10pxsolid black;
+    cursor: pointer;
+}
+.fa-facebook-messenger{
+    color: blue;
+    font-size:25px;
+    margin: auto;
+    cursor: pointer;
+   
+    
+}
+.fa-table-cells{
+    font-size:20px;
+    padding-top: 5px;
+    cursor: pointer;
+  
+}
+.profileimg{
+    height: 30px;
+    width: 30px; 
+    border-radius: 50%;
+    padding-top: 7px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+   
+}
+
+
+.leftbar{
+  border: 2px solid black;
+  width: 300px;
+  height: 100vh;
+  padding: 10px 0px;
+  position: fixed;
+  top: 6.5%;
+   left: 0%; 
+  
+}
+
+
+
+.imp-links a, .shortcut-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  
+
+} 
+.imp-links a, .shortcut-links a:hover{
+    cursor: pointer;
+}
+.linkimg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+ .pname:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+ } 
+.Friends:hover{ 
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+    padding: 5px 0px;
+} 
+
+.fa-user-group{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ .groups:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+    /* padding: 5px 0px; */
+} 
+.fa-users{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fa-shop{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.marketplace:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+    /* padding: 5px 0px; */
+} 
+.fa-file-video{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ .video:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+    /* padding: 5px 0px; */
+} 
+.fa-clock{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ .watch:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+    /* padding: 5px 0px; */
+} 
+.seemore{
+    margin-left: 20px;
+}
+ .seemore:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+   width: 94%;
+} 
+.imp-links{
+   border-bottom: 1px solid #ccc;
+}
+.shortcut-links{
+
+}
+
+.fa-connectdevelop{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.webdep:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+} 
+.fa-hands{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ .webdesign:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+} 
+.fa-shop-lock{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ .sastabazr:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+} 
+.fa-stack-exchange{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fullstackdev:hover{
+    cursor: pointer;
+    background-color: #6262623f;
+    width: 100%;
+} 
+.shortcut-links p{
+    margin: 20px 0;
+    color: #626262;
+    font-weight: 600;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.centerbar{
+  border: 2px solid black;
+  width: 800px;
+  padding: 20px 0px;
+  margin: auto;
+ 
+}
+.story{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+.card{
+    height: 250px;
+    width: 170px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+   
+}
+.centerimg{
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+.fa-circle-plus{
+ margin-left: 68px;
+ font-size: 30px;
+    color: blue;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -20px;
+    position: relative;
+   
+}
+.centercardh4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.centerimg2{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius:10px ;
+}
+.centerimg3{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius:10px ;
+}
+.centerimg4{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius:10px ;
+}
+.createpost{
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.13);
+    margin: 10px;
+    padding: 10px ; 
+  }
+  .fa-s{
+     border: 2px solid ;
+    border-radius: 50%;
+    background-color: brown;
+    padding: 10px ;
+   color: white;
+   font-size: 22px;
+  }
+  .fa-r:hover{
+     cursor: pointer;
+  }
+  .inputpost{
+     border: 2px solid black;
+     width: 680px;
+     border-radius: 20px;
+     padding: 10px 10px;
+  }
+  .inputpost:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.034);
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fa-photo-film{
+     color: rgba(0, 0, 255, 0.493);
+     font-size: 20px;
+     margin-right: 10px;
+  }
+  
+  .btnh6{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+  }
+   .btnh6:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.089);
+  } 
+  .fa-calendar-days{
+     color: rgba(165, 42, 42, 0.877);
+     font-size: 20px;
+     margin-right: 10px;
+  }
+  .fa-calendar-days:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.089);
+  }
+   .btnh6{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+  }
+  .fa-newspaper{
+     color: rgba(165, 42, 42, 0.932);
+     font-size: 20px;
+     margin-right: 10px;
+  }
+  .fa-newspaper:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.089);
+  }
+  .btnh6{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px; 
+  }
+  .postsection{
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.13);
+    border-radius: 10px ;
+    width: 92%;
+    padding:10px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+
+  .postline{
+     margin-top: 15px;
+  }
+   .section1{
+   display: flex ; 
+   margin-top: 15px;
+   
+  }
+  .img1{
+     background-image: url(https://images.pexels.com/photos/1912868/pexels-photo-1912868.jpeg?auto=compress&cs=tinysrgb&w=600);
+     height: 60px;
+     width: 60px;
+     border-radius: 100%;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     display: inline-block;
+     flex-wrap: wrap;
+     position: relative;
+    
+  }
+  .img1:hover{
+    cursor: pointer;
+  }
+  .profilename{
+     font-size: 15px;
+     display: inline block; 
+     margin-left: 20px;
+    
+    
+  }
+  .profilename:hover{
+     cursor: pointer;
+     text-decoration: underline;
+  }
+  .spnsocial{
+     font-size: 12px;
+     color: rgba(0, 0, 0, 0.329);
+     font-family: Arial, Helvetica, sans-serif;
+     display: inline-block;
+    
+  }
+.postimg:hover{
+  cursor: pointer;
+}
+ 
+  .sec2{
+  
+  }
+  .fa-heart{
+     color: red;
+     margin-left: ;
+  }
+  
+  .fa-face-laugh{
+    color: yellow;
+  }
+  .fa-hand-holding-heart{
+    color: red;
+  }
+  .spannumber{
+     color: rgba(0, 0, 0, 0.432);
+  }
+  .spannumber:hover{
+     cursor: pointer;
+     color: blue;
+     text-decoration: underline;
+  }
+  .comments{
+     margin-left: 540px;
+     color: rgba(0, 0, 0, 0.432);
+  }
+  .comments:hover{
+     cursor: pointer;
+     color: blue;
+     text-decoration: underline;
+   }
+  
+  .section3{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin-top: 10px;
+  }
+  
+  
+  .btnstype{
+      padding: 10px 10px;
+      border: none;
+      background-color: white;
+  } 
+  .btnstyp:hover{
+     cursor:pointer;
+     background-color:rgba(0, 0, 0, 0.13) ;
+  }
+  .fa-thumbs-up{
+     color: black;
+     font-size: 25px;
+     margin-right: 15px;
+  }
+  .h1like{
+     font-size: 20px;
+  
+  }
+  .h1like:hover{
+     border: 1px solid;
+     border-color:rgba(0, 0, 0, 0.13) ;
+     padding: 10px 10px;
+     cursor:pointer;
+     background-color:rgba(0, 0, 0, 0.13) ;
+     
+  }
+   .btncmnts{
+     padding: 10px 10px;
+     border: none;
+     background-color: white;
+    
+  } 
+  .fa-comment{
+     color: black;
+     font-size: 20px;
+     margin-right: 12px;
+  }
+  .h1comments{
+     font-size: 15px;
+  }
+  .h1comments:hover{
+     border: 1px solid;
+     border-color:rgba(0, 0, 0, 0.13) ;
+     padding: 10px 10px;
+     cursor:pointer;
+     background-color:rgba(0, 0, 0, 0.13) ;
+  }
+   
+  .btnshare{
+     padding: 10px 10px;
+     border: none;
+     background-color: white;
+  }
+ .fa-share{
+     color: black;
+     font-size: 20px;
+     margin-right: 12px;
+  }
+  .h1share{
+     font-size: 15px;
+  }
+  .h1share:hover{
+     border: 1px solid;
+     border-color:rgba(0, 0, 0, 0.13) ;
+     padding: 10px 10px;
+     cursor:pointer;
+     background-color:rgba(0, 0, 0, 0.13) ;
+  }
+
+
+
+.rightbar{
+    border: 2px solid black;
+    width: 320px;
+    height: 100vh;
+    padding: 20px 0px;
+    position: fixed;
+    top: 6.4%;
+    right: 0%; 
+    background: #fff;
+    color: #626262;
+
+}
+.righth1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+     margin-left: 10px;
+     
+   
+}
+.rightbox1{
+   display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+  position: relative;
+}
+.rightbox1:hover{
+  cursor: pointer;
+  background-color:#6262621e ;
+}
+.rightboximg{
+    background-image: url(https://images.pexels.com/photos/20183655/pexels-photo-20183655/free-photo-of-yellow-modern-sport-car-racing.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 5px;
+   margin-left: 15px;
+    margin-top: 10px;
+}
+.gamename{
+  display: inline-block;
+  text-transform: lowercase;
+ 
+}
+.gamename:hover{
+    cursor: pointer;
+  background-color:#6262621e ;
+}
+.righth2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+    
+  
+}
+.rightspn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.hr{
+    margin-top: 10px;
+}
+.yourprofile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.fa-ellipsis{
+  margin-left:50px;
+  cursor: pointer;
+  
+  
+}
+.h2yourprofile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: lighter;
+    
+}
+.fa-bullhorn{
+ margin-right: 20px;
+}
+.h2yourprofile:hover{
+    cursor: pointer;
+    background-color: #6262621c;
+}
+.hr{
+  margin-top: 10px;
+}
+.namecontact{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.sec6{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+.rightproimg{
+  
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: 10px;
+  
+}
+.proname{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    top: 30px;
+}
+.fa-circle{
+    font-size: 10px;
+    color: yellowgreen;
+    border: 1px solid white;
+  border-radius: 50%;
+  margin-left: -9px;
+  
+}
+.sec6:hover{
+  cursor: pointer;
+  background-color:  #6262621e ;
+}
