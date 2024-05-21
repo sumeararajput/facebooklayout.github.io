@@ -101,20 +101,18 @@
     cursor: pointer;
    
 }
-
-
 .leftbar{
-  border: 2px solid black;
-  width: 300px;
-  height: 100vh;
-  padding: 10px 0px;
-  position: fixed;
-  top: 6.5%;
-   left: 0%; 
-  
+    border: 2px solid black;
+    width: 20rem;
+    height: 38rem;
+    padding: 10px 0px;
+    position: fixed;
+    top: 6.5%;
+     left: 0%; 
+     overflow: auto;
+     scrollbar-color: grey;
+     scrollbar-width: thin;
 }
-
-
 
 .imp-links a, .shortcut-links a{
     text-decoration: none;
@@ -124,9 +122,6 @@
     color: #626262;
     width: fit-content;
     font-family: Arial, Helvetica, sans-serif;
-   
-  
-
 } 
 .imp-links a, .shortcut-links a:hover{
     cursor: pointer;
@@ -211,9 +206,9 @@
 .imp-links{
    border-bottom: 1px solid #ccc;
 }
-.shortcut-links{
+/* .shortcut-links{
 
-}
+} */
 
 .fa-connectdevelop{
     color: blue;
@@ -264,11 +259,7 @@
 }
 
 
-
-
-
-
-
+  /* this is center */
 
 
 .centerbar{
@@ -345,23 +336,23 @@
     margin: 10px;
     padding: 10px ; 
   }
-  .fa-s{
+.fa-s{
      border: 2px solid ;
     border-radius: 50%;
     background-color: brown;
     padding: 10px ;
    color: white;
    font-size: 22px;
-  }
-  .fa-r:hover{
+ }
+.fa-r:hover{
      cursor: pointer;
-  }
-  .inputpost{
+ }
+.inputpost{
      border: 2px solid black;
      width: 680px;
      border-radius: 20px;
      padding: 10px 10px;
-  }
+}
   .inputpost:hover{
      cursor: pointer;
      background-color: rgba(0, 0, 0, 0.034);
@@ -469,12 +460,12 @@
   cursor: pointer;
 }
  
-  .sec2{
+  /* .sec2{
   
-  }
+  } */
   .fa-heart{
      color: red;
-     margin-left: ;
+     /* margin-left: ; */
   }
   
   .fa-face-laugh{
